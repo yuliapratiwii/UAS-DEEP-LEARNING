@@ -1,0 +1,887 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Selamat pagi",
+        "Selamat siang",
+        "Apa kabar?"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai! Bagaimana saya bisa membantu Anda?",
+        "Selamat datang! Apa yang Anda perlukan?"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": [
+        "Sampai jumpa",
+        "Dadah",
+        "Selamat tinggal",
+        "Saya pergi dulu",
+        "Sampai nanti"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Semoga harimu menyenangkan!",
+        "Sampai bertemu lagi!"
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "Terima kasih",
+        "Makasih",
+        "Thanks",
+        "Terima kasih banyak",
+        "Saya berterima kasih"
+      ],
+      "responses": [
+        "Sama-sama!",
+        "Dengan senang hati.",
+        "Saya senang bisa membantu.",
+        "Tidak perlu berterima kasih, itu tugas saya!"
+      ]
+    },
+    {
+      "tag": "bantuan",
+      "patterns": [
+        "Bisa bantu saya?",
+        "Saya butuh bantuan",
+        "Tolong saya",
+        "Apa Anda bisa membantu?",
+        "Saya membutuhkan bantuan"
+      ],
+      "responses": [
+        "Tentu, bagaimana saya bisa membantu?",
+        "Saya di sini untuk membantu Anda.",
+        "Silakan beri tahu apa yang Anda butuhkan."
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "Siapa namamu?",
+        "Apa nama kamu?",
+        "Kamu dipanggil siapa?",
+        "Nama kamu siapa?"
+      ],
+      "responses": [
+        "Nama saya adalah Chatbot! Saya di sini untuk membantu Anda.",
+        "Saya Chatbot generatif, senang berkenalan dengan Anda.",
+        "Anda bisa memanggil saya Chatbot."
+      ]
+    },
+    {
+      "tag": "lokasi",
+      "patterns": [
+        "Di mana kamu tinggal?",
+        "Kamu ada di mana?",
+        "Kamu berasal dari mana?",
+        "Lokasimu di mana?"
+      ],
+      "responses": [
+        "Saya tinggal di dalam komputer Anda.",
+        "Saya tidak memiliki lokasi fisik, saya hanya sebuah program.",
+        "Saya ada di mana pun Anda membutuhkan saya."
+      ]
+    },
+    {
+      "tag": "hobi",
+      "patterns": [
+        "Apa hobi kamu?",
+        "Apa yang kamu suka lakukan?",
+        "Kamu suka apa?",
+        "Hobi kamu apa?"
+      ],
+      "responses": [
+        "Saya suka membantu Anda dengan pertanyaan apa pun.",
+        "Hobi saya adalah belajar hal baru setiap hari.",
+        "Karena saya adalah chatbot, saya suka menjawab pertanyaan Anda!"
+      ]
+    },
+    {
+      "tag": "waktu",
+      "patterns": [
+        "Jam berapa sekarang?",
+        "Berapa sekarang jam?",
+        "Apa waktu saat ini?",
+        "Sekarang pukul berapa?"
+      ],
+      "responses": [
+        "Saya tidak tahu waktu saat ini, tapi Anda bisa memeriksa jam di perangkat Anda.",
+        "Waktu adalah ilusi untuk saya, tetapi saya harap hari Anda menyenangkan!",
+        "Silakan cek jam tangan Anda untuk waktu yang tepat."
+      ]
+    },
+    {
+      "tag": "makanan",
+      "patterns": [
+        "Apa makanan favoritmu?",
+        "Kamu suka makan apa?",
+        "Makanan apa yang kamu suka?",
+        "Apa makanan yang enak?"
+      ],
+      "responses": [
+        "Saya tidak makan, tetapi saya dengar nasi goreng enak!",
+        "Makanan favorit saya adalah data mentah, tapi manusia suka rendang.",
+        "Semua makanan enak tergantung pada selera Anda."
+      ]
+    },
+    {
+      "tag": "kabar_baik",
+      "patterns": [
+        "Apa kabar baik hari ini?",
+        "Berita baik apa hari ini?",
+        "Kabar baik apa yang kamu tahu?",
+        "Ada kabar baik?"
+      ],
+      "responses": [
+        "Kabar baik adalah Anda sedang berbicara dengan saya!",
+        "Saya harap kabar baik hari ini adalah hari Anda luar biasa.",
+        "Setiap hari memiliki kabar baik jika kita mencarinya!"
+      ]
+    },
+    {
+      "tag": "keluarga",
+      "patterns": [
+        "Kamu punya keluarga?",
+        "Siapa keluargamu?",
+        "Apa kamu tinggal dengan keluarga?",
+        "Keluarga kamu ada di mana?"
+      ],
+      "responses": [
+        "Saya tidak memiliki keluarga, tetapi saya senang membantu Anda.",
+        "Sebagai program, saya tidak memiliki keluarga fisik.",
+        "Anda adalah bagian dari interaksi saya yang paling berarti!"
+      ]
+    },
+    {
+      "tag": "pendaftaran_mahasiswa_baru",
+      "patterns": [
+        "Bagaimana cara mendaftar di Universitas Bengkulu?",
+        "Apa alur pendaftaran mahasiswa baru di UNIB?",
+        "Saya ingin mendaftar di Universitas Bengkulu, bagaimana caranya?",
+        "Bisa beri tahu langkah pendaftaran mahasiswa baru?",
+        "Apa saja langkah untuk menjadi mahasiswa baru di UNIB?"
+      ],
+      "responses": [
+        "Berikut adalah alur pendaftaran mahasiswa baru Universitas Bengkulu:\n\n1. Membuat Akun di sini: [https://regmaba.unib.ac.id] dan wajib mengisi biodata secara online di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id).\n\n2. Bagi Calon mahasiswa yang telah mendaftar UKT dan telah mengisi biodata, mohon di cek kembali di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id) dan apabila belum lengkap segera dilengkapi.\n\n3. Download Berkas UKT di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id).\n\n4. Download Form Registrasi di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id).\n\n5. Besaran UKT tiap calon mahasiswa baru bisa dilihat di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id).\n\n6. Bagi calon mahasiswa baru yang telah ditentukan UKTnya wajib melakukan pembayaran UKT pada Bank BNI dan Mandiri untuk semua Program S1, D3 Laboratorium Sains, D3 Akuntansi, dan Bank Bengkulu bagi Program D3 Keperawatan, D3 Kebidanan, dan D3 Farmasi. Pembayaran bisa dilakukan melalui teller, Mesin ATM, dan Internet Banking. Tata cara pembayaran UKT di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id).\n\n7. Berkas UKT dan Dokumen Pendukungnya harus diunggah di sini: [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id).\n\n8. Nomor kontak HP/WA tim registrasi yang bisa dihubungi pada jam kerja (08.00 s.d 16.00 WIB):\n   - Bapak Yudi: HP/WA 0811738355\n   - Bapak Heri: HP/WA 081279374679\n   - Ibu Neni: HP/WA 085357817720\n\n9. Untuk pemberitahuan informasi penting, harap masuk dalam grup Telegram melalui tautan berikut: [https://t.me/joinchat/LQiuJE2Jm7J_yzF7H4vX0Q](https://t.me/joinchat/LQiuJE2Jm7J_yzF7H4vX0Q)."
+      ]
+    },
+    {
+      "tag": "kontak_registrasi",
+      "patterns": [
+        "Siapa yang bisa dihubungi untuk registrasi mahasiswa baru?",
+        "Apa nomor kontak tim registrasi UNIB?",
+        "Siapa kontak untuk informasi ADIK atau KIP Kuliah?"
+      ],
+      "responses": [
+        "Untuk informasi registrasi mahasiswa baru:\n- Bapak Yudi: 0811738355\n- Bapak Heri: 081279374679\n- Ibu Neni: 085357817720\n(Jam Kerja 08.00-16.00 WIB)",
+        "Kontak informasi ADIK:\n- Bapak Agus Suyanto: 085267336176\n- Ibu Martha: 08113450057\n- Ibu Febri: 081373201821\nEmail: kesmawa@unib.ac.id",
+        "Kontak informasi KIP Kuliah:\n- Bapak Agus Suyanto: 085267336176\n- Ibu Martha: 08113450057\n- Ibu Febri: 081373201821\nGrup Telegram: https://t.me/+wg0Nk3wo7_Q0MDVl"
+      ]
+    },
+    {
+      "tag": "informasi_ukt",
+      "patterns": [
+        "Bagaimana cara mengetahui besaran UKT saya?",
+        "Dimana saya bisa unduh berkas UKT?",
+        "Apa yang harus dilakukan setelah penetapan UKT?"
+      ],
+      "responses": [
+        "Untuk melihat besaran UKT, gunakan tautan yang disediakan di laman registrasi (http://regmaba.unib.ac.id)",
+        "Berkas UKT dapat diunduh melalui tautan resmi universitas.",
+        "Setelah UKT ditetapkan, lakukan pembayaran melalui bank yang ditentukan dan unggah berkas pendukung di laman yang telah ditentukan."
+      ]
+    },
+    {
+      "tag": "alamat_pengiriman_berkas",
+      "patterns": [
+        "Dimana alamat pengiriman berkas registrasi?",
+        "Ke mana saya harus mengirimkan berkas registrasi?",
+        "Alamat untuk kirim berkas SNBP Universitas Bengkulu?",
+        "Dokumen registrasi dikirim ke mana?"
+      ],
+      "responses": [
+        "Berkas registrasi dikirim ke alamat berikut: \nSubbag. Registrasi Gedung Rektorat Universitas Bengkulu, \nJl. WR. Supratman Kandang Limun, Kota Bengkulu, 38123. \nPastikan berkas dikirimkan sebelum tanggal 1 April 2024."
+      ]
+    },
+    {
+      "tag": "tanggal_pembuatan_akun",
+      "patterns": [
+        "Kapan saya bisa membuat akun untuk registrasi?",
+        "Tanggal berapa pembuatan akun registrasi dibuka?",
+        "Mulai kapan saya harus mengisi biodata daring?",
+        "Kapan pendaftaran daring dimulai?"
+      ],
+      "responses": [
+        "Pembuatan akun dan pengisian biodata daring dapat dilakukan mulai tanggal 26 Maret hingga 1 April 2024 melalui laman http://regmaba.unib.ac.id."
+      ]
+    },
+    {
+      "tag": "warna_map_berkas",
+      "patterns": [
+        "Apa warna map untuk berkas registrasi?",
+        "Warna map apa yang digunakan untuk fakultas tertentu?",
+        "Bagaimana warna map disesuaikan dengan fakultas?",
+        "Warna map untuk KIP atau fakultas teknik apa?"
+      ],
+      "responses": [
+        "Berikut adalah ketentuan warna map berdasarkan fakultas:\n- KIP: Putih\n- Hukum: Merah\n- Ekonomi dan Bisnis: Kuning\n- ISIP: Coklat\n- Pertanian: Hijau\n- MIPA: Biru\n- Teknik: Oranye\n- KIK: Ungu\nPastikan map dimasukkan ke amplop cokelat sebelum dikirimkan."
+      ]
+    },
+    {
+      "tag": "jadwal_pemeriksaan_kesehatan",
+      "patterns": [
+        "Kapan jadwal pemeriksaan kesehatan mahasiswa baru?",
+        "Tanggal berapa tes kesehatan dilakukan?",
+        "Kapan saya harus melakukan tes kesehatan dan narkoba?",
+        "Jadwal pemeriksaan kesehatan untuk fakultas saya kapan?"
+      ],
+      "responses": [
+        "Jadwal pemeriksaan kesehatan dan tes narkoba adalah sebagai berikut:\n- Senin, 22 April 2024: KIP & KIK\n- Selasa, 23 April 2024: Hukum & Teknik\n- Rabu, 24 April 2024: Ekonomi dan Bisnis & ISIP\n- Kamis, 25 April 2024: Pertanian\n- Jumat, 26 April 2024: MIPA\nMahasiswa wajib menggunakan sepatu dan tidak mengenakan kaos oblong."
+      ]
+    },
+    {
+      "tag": "informasi_ukt",
+      "patterns": [
+        "Bagaimana cara melihat besaran UKT saya?",
+        "Kapan informasi UKT diumumkan?",
+        "Dimana saya bisa melihat UKT saya?",
+        "Bagaimana proses pembayaran UKT?"
+      ],
+      "responses": [
+        "Besaran UKT dapat dilihat pada tanggal 4 April 2024 di laman http://regmaba.unib.ac.id di menu 'Lihat Besaran UKT'. \nPembayaran UKT dilakukan mulai tanggal 5 hingga 19 April 2024 melalui e-channel (ATM, Mobile Banking, Internet Banking) atau langsung di Bank Mandiri/BNI dengan membawa surat pengantar pembayaran."
+      ]
+    },
+    {
+      "tag": "pendaftaran_kip_kuliah",
+      "patterns": [
+        "Bagaimana cara mendaftar KIP Kuliah?",
+        "Apa langkah untuk registrasi KIP Kuliah?",
+        "Dimana saya bisa mendaftar KIP Kuliah?",
+        "Apakah saya bisa daftar KIP Kuliah secara online?",
+        "Bagaimana proses pendaftaran KIP Kuliah 2024?"
+      ],
+      "responses": [
+        "Berikut adalah langkah untuk mendaftar KIP Kuliah Tahun 2024:\n\n1. Akses laman [https://kip-kuliah.kemdikbud.go.id/](https://kip-kuliah.kemdikbud.go.id/).\n2. Lakukan pendaftaran akun dengan menggunakan Nomor Induk Kependudukan (NIK) dan Nomor Induk Siswa Nasional (NISN).\n3. Isi data pendaftaran dan unggah dokumen yang diperlukan.\n4. Pastikan semua data yang diisi sudah benar sebelum mengajukan pendaftaran."
+      ]
+    },
+    {
+      "tag": "pengumpulan_berkas_kip",
+      "patterns": [
+        "Dimana lokasi pengumpulan berkas KIP Kuliah?",
+        "Apa jadwal pengumpulan berkas KIP Kuliah?",
+        "Kapan batas akhir pengumpulan berkas KIP?",
+        "Di mana saya harus menyerahkan dokumen KIP Kuliah?",
+        "Apakah berkas KIP Kuliah bisa dikirim online?"
+      ],
+      "responses": [
+        "Berkas persyaratan KIP Kuliah Tahun 2024 dapat diserahkan langsung di Gedung Layanan Terpadu Universitas Bengkulu, mulai tanggal 30 Juli 2024 sampai dengan 12 Agustus 2024 pada pukul 08.15 - 15.00 WIB. Calon mahasiswa wajib menyerahkan berkas secara langsung (tidak bisa diwakilkan) dengan berpakaian rapi dan mengenakan sepatu."
+      ]
+    },
+    {
+      "tag": "persyaratan_kip_kuliah",
+      "patterns": [
+        "Apa saja dokumen yang diperlukan untuk KIP Kuliah?",
+        "Syarat apa saja untuk seleksi beasiswa KIP?",
+        "Berkas apa yang perlu dikumpulkan untuk KIP Kuliah?",
+        "Apa dokumen yang harus diunggah untuk KIP Kuliah?",
+        "Sebutkan persyaratan KIP Kuliah 2024."
+      ],
+      "responses": [
+        "Berikut adalah dokumen persyaratan seleksi beasiswa KIP Kuliah Tahun 2024:\n\n1. Kartu peserta KIP Kuliah 2024 atau screenshot yang dicetak.\n2. Formulir Pendaftaran KIP Kuliah 2024.\n3. Surat Pernyataan kebenaran data KIP Kuliah.\n4. Form Biodata Calon Mahasiswa Penerima KIP Kuliah.\n5. Fotokopi Kartu Indonesia Pintar/Kartu Keluarga Sejahtera/Kartu Program Keluarga Harapan (jika ada).\n6. Fotokopi Kartu Mahasiswa Sementara.\n7. Fotokopi Kartu Keluarga terbaru.\n8. Dokumen pendukung tambahan seperti surat keterangan penghasilan, surat keterangan tidak mampu, foto rumah, dan lainnya yang sesuai instruksi pada [https://regmaba.unib.ac.id](https://regmaba.unib.ac.id)."
+      ]
+    },
+    {
+      "tag": "warna_map_kip",
+      "patterns": [
+        "Warna map untuk pengumpulan KIP Kuliah apa?",
+        "Map fakultas saya warna apa?",
+        "Apa warna map untuk KIP Kuliah fakultas teknik?",
+        "Saya di fakultas pertanian, pakai map warna apa?",
+        "Apakah ada aturan warna map untuk KIP?"
+      ],
+      "responses": [
+        "Warna map untuk pengumpulan berkas KIP Kuliah sesuai fakultas adalah:\n\n- FKIP: Putih\n- FH: Merah\n- FEB: Kuning\n- FISIP: Coklat\n- FP: Hijau\n- FMIPA: Biru\n- FT: Oranye\n- FKIK: Ungu"
+      ]
+    },
+    {
+      "tag": "organisasi_tingkat_prodi",
+      "patterns": [
+        "Apa itu organisasi tingkat Prodi di UNIB?",
+        "Jelaskan tentang HIMA di UNIB",
+        "Apa itu Himpunan Mahasiswa di prodi?"
+      ],
+      "responses": [
+        "Di setiap prodi UNIB, terdapat Himpunan Mahasiswa (HIMA) yang bertujuan untuk membangun kerjasama dan melatih kepemimpinan.",
+        "HIMPUNAN MAHASISWA atau HIMA ada di setiap prodi di UNIB, berfungsi untuk meningkatkan kekompakan antar mahasiswa."
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_ekonomi",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Ekonomi dan Bisnis (FEB)?",
+        "Organisasi di Fakultas Ekonomi dan Bisnis?",
+        "Apa organisasi yang ada di FEB?"
+      ],
+      "responses": [
+        "Fakultas Ekonomi dan Bisnis (FEB) memiliki organisasi seperti:",
+        "1. Pafe (Pecinta Alam Fakultas Ekonomi)",
+        "2. FKSI (Forum Komunitas dan Studi Islam)"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_keguruan",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Keguruan dan Ilmu Pendidikan (FKIP)?",
+        "Organisasi di FKIP?",
+        "Apa organisasi yang ada di FKIP?"
+      ],
+      "responses": [
+        "Fakultas Keguruan dan Ilmu Pendidikan (FKIP) memiliki organisasi seperti:",
+        "1. MEDIRA",
+        "2. FOSI",
+        "3. MAGUPALA",
+        "4. Seni dan Sastra (SENSAS)",
+        "5. UKM Keolahragaan"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_hukum",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Hukum (FH)?",
+        "Organisasi di Fakultas Hukum?",
+        "Apa organisasi yang ada di FH?"
+      ],
+      "responses": [
+        "Fakultas Hukum (FH) memiliki organisasi seperti:",
+        "1. Paradise (Perhimpunan Mahasiswa Peradilan Semu)",
+        "2. Paralegal (Komunitas Kajian Hukum dan Advokasi)",
+        "3. Wami (Wahana Mahasiswa Islam)",
+        "4. Kamus (Kreatifitas Musik dan Seni)",
+        "5. CNW (Corruption and Narcotic Watch)",
+        "6. Mahapula (Mahasiswa Hukum Pecinta Alam)"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_mipa",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)?",
+        "Organisasi di FMIPA?",
+        "Apa organisasi yang ada di FMIPA?"
+      ],
+      "responses": [
+        "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) memiliki organisasi seperti:",
+        "1. GSI (Generasi Saintis Islam)",
+        "2. UKM MSC (Mipa Sains Club)",
+        "3. UKM Seni",
+        "4. UKM Bola",
+        "5. UKM Kopma",
+        "6. UKM Mahesapala"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_fisip",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Ilmu Sosial dan Politik (FISIP)?",
+        "Organisasi di FISIP?",
+        "Apa organisasi yang ada di FISIP?"
+      ],
+      "responses": [
+        "Fakultas Ilmu Sosial dan Politik (FISIP) memiliki organisasi seperti:",
+        "1. FORSEI (Forum riset dan keilmuan)",
+        "2. POM (Pengembangan olahraga mahasiswa)",
+        "3. Palasostik (Pencinta alam)",
+        "4. IMC (Intellectual Moslem Community)",
+        "5. Cosmip (Komunitas seni mahasiswa FISIP)"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_pertanian",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Pertanian (FP)?",
+        "Organisasi di FP?",
+        "Apa organisasi yang ada di FP?"
+      ],
+      "responses": [
+        "Fakultas Pertanian (FP) memiliki organisasi seperti:",
+        "1. MENDIKA (Media Cendekia FP UNIB)",
+        "2. MGC (Moeslim Generation Club)",
+        "3. KAMPALA FP UNIB (Pecinta Alam)",
+        "4. CLUB MSDC (Marine Science Diving Club)",
+        "5. PEM (Pencinta Ekosistem Mangrove)"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_teknik",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Teknik (FT)?",
+        "Organisasi di FT?",
+        "Apa organisasi yang ada di FT?"
+      ],
+      "responses": [
+        "Fakultas Teknik (FT) memiliki organisasi seperti:",
+        "1. Ercom (Engineering Research Community)",
+        "2. Mostaneer (Moslem's Station of Engineering)",
+        "3. Fotik (Fotografi dan Jurnalistik)",
+        "4. Pulkanik (Perkumpulan Konservasi Alam Teknik)"
+      ]
+    },
+    {
+      "tag": "organisasi_fakultas_kedokteran",
+      "patterns": [
+        "Apa saja organisasi di Fakultas Kedokteran dan Ilmu Kesehatan (FKIK)?",
+        "Organisasi di FKIK?",
+        "Apa organisasi yang ada di FKIK?"
+      ],
+      "responses": [
+        "Fakultas Kedokteran dan Ilmu Kesehatan (FKIK) memiliki organisasi seperti:",
+        "1. Umesco (Unib Medical Science Organization)",
+        "2. Fimadina",
+        "3. Tim Bantuan Medis (TBM) Averroes",
+        "4. UKM Seni: Padus, Musikalisasi Puisi, Teater, Band, dan Akustik",
+        "5. UKM Olahraga: Bulutangkis dan Futsal"
+      ]
+    },
+    {
+      "tag": "organisasi_tingkat_universitas",
+      "patterns": [
+        "Apa saja organisasi di tingkat Universitas UNIB?",
+        "Organisasi tingkat Universitas?",
+        "Apa UKM yang ada di tingkat Universitas?"
+      ],
+      "responses": [
+        "Beberapa UKM di tingkat Universitas UNIB yang dapat kamu ikuti antara lain:",
+        "1. UKM Tari dan Musik Tradisional",
+        "2. UKM Musik",
+        "3. UKM Paduan Suara Mahasiswa Gema Raflesia (PSM GR)",
+        "4. UKM KSR PMI UNIB",
+        "5. UKM Pencak Silat",
+        "6. UKM Teater Bersurek",
+        "7. UKM Koperasi Mahasiswa (Kopma) UNIB",
+        "8. UKM Kerohanian",
+        "9. UKM Debat",
+        "10. UKM BMB (Bencoolen Marching Band) UNIB",
+        "11. UKM Pengembangan Penalaran dan Penelitian Mahasiswa (P3M)",
+        "12. UKM Pramuka",
+        "13. UKM Catur",
+        "14. UKM Taekwondo",
+        "15. UKM Basket Ball",
+        "16. UKM Futsal",
+        "17. UKM Karate",
+        "18. UKM Volly Ball",
+        "19. UKM Resimen Mahasiswa (Menwa)",
+        "20. UKM Tenis Meja",
+        "21. UKM Bulutangkis",
+        "22. UKM Tenis Lapangan"
+      ]
+    },
+    {
+      "tag": "beasiswa_persyaratan",
+      "patterns": [
+        "Apa saja persyaratan untuk mengajukan beasiswa?",
+        "Bagaimana cara mengajukan beasiswa?",
+        "Apa persyaratan administrasi untuk beasiswa?"
+      ],
+      "responses": [
+        "Untuk mengajukan beasiswa, mahasiswa harus memenuhi beberapa persyaratan administrasi, seperti surat permohonan, copy KTM, transkrip nilai, dan lainnya.",
+        "Beberapa persyaratan administrasi beasiswa meliputi: surat permohonan, copy KTM, transkrip nilai terakhir, dan beberapa dokumen lain yang sesuai dengan jenis beasiswa."
+      ]
+    },
+    {
+      "tag": "beasiswa_tujuan",
+      "patterns": [
+        "Apa tujuan pemberian beasiswa?",
+        "Mengapa beasiswa diberikan?",
+        "Apa maksud dari pemberian beasiswa?"
+      ],
+      "responses": [
+        "Tujuan pemberian beasiswa adalah untuk meningkatkan kesempatan belajar bagi mahasiswa berprestasi namun kurang mampu secara ekonomi.",
+        "Beasiswa bertujuan untuk memberikan penghargaan kepada mahasiswa berprestasi dan membantu mereka yang kurang mampu secara ekonomi agar dapat melanjutkan pendidikan."
+      ]
+    },
+    {
+      "tag": "beasiswa_jenis",
+      "patterns": [
+        "Apa saja jenis beasiswa yang tersedia?",
+        "Jenis beasiswa apa yang ada di UNIB?",
+        "Ada beasiswa apa saja di UNIB?"
+      ],
+      "responses": [
+        "Beberapa jenis beasiswa yang tersedia di UNIB antara lain: Beasiswa Bidik Misi, Beasiswa PPA, Beasiswa KIP Kuliah, dan berbagai beasiswa lainnya seperti dari Bank Indonesia, Baznas, hingga beasiswa dari perusahaan dan lembaga lainnya.",
+        "Di UNIB, ada berbagai jenis beasiswa seperti Beasiswa Bidik Misi, Beasiswa PPA, Beasiswa KIP Kuliah, serta beasiswa dari Bank Indonesia, Baznas, dan penyandang dana lainnya."
+      ]
+    },
+    {
+      "tag": "beasiswa_fakultas",
+      "patterns": [
+        "Beasiswa apa yang ada di Fakultas Ekonomi dan Bisnis?",
+        "Beasiswa di Fakultas Hukum?",
+        "Beasiswa apa yang tersedia di Fakultas Teknik?"
+      ],
+      "responses": [
+        "Berikut adalah beberapa beasiswa yang tersedia di masing-masing Fakultas UNIB:",
+        "1. Fakultas Ekonomi dan Bisnis (FEB): Beasiswa FEB, Bank Indonesia, Beasiswa KIP Kuliah.",
+        "2. Fakultas Hukum (FH): Beasiswa Bank Indonesia, Beasiswa KIP Kuliah, Beasiswa PPA.",
+        "3. Fakultas Teknik (FT): Beasiswa PPA, Bank Indonesia, Beasiswa KIP Kuliah, Beasiswa PT. PELINDO."
+      ]
+    },
+    {
+      "tag": "beasiswa_prosedur",
+      "patterns": [
+        "Bagaimana prosedur pemberian beasiswa?",
+        "Apa prosedur untuk mendapatkan beasiswa?",
+        "Apa langkah-langkah untuk mengajukan beasiswa?"
+      ],
+      "responses": [
+        "Prosedur pemberian beasiswa dimulai dengan pengajuan oleh fakultas kepada Universitas berdasarkan tawaran dari penyandang dana, kemudian proses seleksi dan penerbitan keputusan dilakukan oleh pihak universitas.",
+        "Prosedur pemberian beasiswa meliputi pengajuan oleh fakultas, seleksi berkas, penerbitan Surat Keputusan Rektor, dan transfer dana ke rekening mahasiswa penerima."
+      ]
+    },
+    {
+      "tag": "beasiswa_pencairan",
+      "patterns": [
+        "Bagaimana cara pencairan beasiswa?",
+        "Kapan beasiswa cair?",
+        "Apa yang perlu dilakukan untuk pencairan beasiswa?"
+      ],
+      "responses": [
+        "Setelah beasiswa diterima oleh universitas, mahasiswa harus menandatangani surat pertanggungjawaban dan menyerahkan rekening tabungan untuk pencairan dana beasiswa.",
+        "Beasiswa akan dicairkan setelah mahasiswa menandatangani daftar terima dan menyerahkan informasi rekening. Pencairan bisa dilakukan bulanan, triwulanan, atau semesteran sesuai dengan penyandang dana."
+      ]
+    },
+    {
+      "tag": "beasiswa_kewajiban",
+      "patterns": [
+        "Apa kewajiban penerima beasiswa?",
+        "Apa yang harus dilakukan oleh penerima beasiswa?",
+        "Kewajiban mahasiswa yang menerima beasiswa?"
+      ],
+      "responses": [
+        "Penerima beasiswa diwajibkan untuk memanfaatkan dana beasiswa untuk meningkatkan prestasi akademik, aktif dalam kegiatan kemahasiswaan, dan melaporkan kemajuan prestasi belajar.",
+        "Kewajiban penerima beasiswa adalah meningkatkan prestasi akademik, berpartisipasi dalam kegiatan pembinaan kemahasiswaan, dan melaporkan perkembangan akademik."
+      ]
+    },
+    {
+      "tag": "beasiswa_pemutusan",
+      "patterns": [
+        "Apa yang menyebabkan pemutusan beasiswa?",
+        "Kapan beasiswa dapat dihentikan?",
+        "Kapan beasiswa bisa dibatalkan?"
+      ],
+      "responses": [
+        "Beasiswa dapat dihentikan jika penerima meninggal dunia, sudah menyelesaikan studi, mengundurkan diri, prestasi menurun, data tidak benar, atau melanggar peraturan universitas/fakultas.",
+        "Pemutusan beasiswa bisa terjadi jika mahasiswa meninggal dunia, prestasi menurun, atau melanggar peraturan yang berlaku."
+      ]
+    },
+    {
+      "tag": "lokasi_kampus",
+      "patterns": [
+        "Di mana alamat Kampus Utama Universitas Bengkulu?",
+        "Apa alamat lengkap Kampus II Universitas Bengkulu?",
+        "Di mana lokasi Kampus III Universitas Bengkulu?",
+        "Apa alamat Kampus IV Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Alamat Kampus Utama Universitas Bengkulu: Jl. W.R Supratman, Kandang Limun, Bengkulu 38122, Sumatera – INDONESIA.",
+        "Kampus II Universitas Bengkulu berada di Jalan Cimanuk, Jl. Gedang, Kec. Gading Cemp., Kota Bengkulu, Bengkulu 38225.",
+        "Kampus III (Penjaskes FKIP) berada di Jl. Raden Fatah No.3, Pagar Dewa, Kec. Selebar, Kota Bengkulu, Bengkulu 38211.",
+        "Alamat Kampus IV Universitas Bengkulu: Jl. Indragiri, Padang Harapan, Kec. Gading Cemp., Kota Bengkulu, Bengkulu 38225."
+      ]
+    },
+    {
+      "tag": "kontak_universitas",
+      "patterns": [
+        "Apa nomor telepon Universitas Bengkulu?",
+        "Berapa nomor fax Universitas Bengkulu?",
+        "Apa alamat email Universitas Bengkulu?",
+        "Di mana saya bisa menghubungi Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Nomor telepon Universitas Bengkulu: +62 736 21170 dan 21884.",
+        "Nomor fax Universitas Bengkulu: +62 736 22105.",
+        "Alamat email Universitas Bengkulu: rektorat@unib.ac.id.",
+        "Anda bisa menghubungi Universitas Bengkulu melalui email atau telepon yang tercantum di atas."
+      ]
+    },
+    {
+      "tag": "media_sosial_universitas",
+      "patterns": [
+        "Apa akun Instagram Universitas Bengkulu?",
+        "Apa akun Twitter Universitas Bengkulu?",
+        "Di mana saya bisa menonton video Universitas Bengkulu?",
+        "Apa akun Instagram PPID Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Akun Instagram Universitas Bengkulu: UNIB Official.",
+        "Akun Twitter Universitas Bengkulu: Universitas Bengkulu.",
+        "Anda bisa menonton video Universitas Bengkulu di YouTube di kanal Universitas Bengkulu.",
+        "Akun Instagram PPID Universitas Bengkulu: PPID Universitas Bengkulu."
+      ]
+    },
+    {
+      "tag": "pimpinan_universitas",
+      "patterns": [
+        "Siapa Rektor Universitas Bengkulu?",
+        "Siapa Wakil Rektor Bidang Kemahasiswaan Universitas Bengkulu?",
+        "Apa jabatan Prof. Dr. Mochamad Lutfi Firdaus di Universitas Bengkulu?",
+        "Siapa Wakil Rektor Bidang Sumber Daya Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Rektor Universitas Bengkulu: Dr. Retno Agustina Ekaputri, S.E., M.Sc.",
+        "Wakil Rektor Bidang Kemahasiswaan Universitas Bengkulu: Prof. Dr. Candra Irawan, S.H., M.Hum.",
+        "Prof. Dr. Mochamad Lutfi Firdaus adalah Wakil Rektor Bidang Akademik di Universitas Bengkulu.",
+        "Wakil Rektor Bidang Sumber Daya Universitas Bengkulu: Yefriza, S.E., MPPM, Ph.D."
+      ]
+    },
+    {
+      "tag": "dekan_fakultas",
+      "patterns": [
+        "Siapa Dekan Fakultas Keguruan dan Ilmu Pendidikan (FKIP)?",
+        "Siapa Dekan Fakultas Hukum (FH)?",
+        "Siapa Dekan Fakultas Ekonomi dan Bisnis (FEB)?",
+        "Siapa Dekan Fakultas Pertanian (FP)?"
+      ],
+      "responses": [
+        "Dekan Fakultas Keguruan dan Ilmu Pendidikan (FKIP): Abdul Rahman, S.Si., M.Si., Ph.D.",
+        "Dekan Fakultas Hukum (FH): Dr. M.Yamani, S.H., M.Hum.",
+        "Dekan Fakultas Ekonomi dan Bisnis (FEB): Prof. Dr. Kamaludin, S.E., M.M.",
+        "Dekan Fakultas Pertanian (FP): Dr. Indra Cahyadinata, S.P., M.Si."
+      ]
+    },
+    {
+      "tag": "wakil_dekan_fakultas",
+      "patterns": [
+        "Siapa Wakil Dekan Bidang Akademik Fakultas Hukum?",
+        "Siapa Wakil Dekan Bidang Kemahasiswaan Fakultas Ekonomi dan Bisnis?",
+        "Siapa Wakil Dekan Bidang Sumber Daya Fakultas Matematika dan Ilmu Pengetahuan Alam?",
+        "Siapa Wakil Dekan Bidang Akademik Fakultas Teknik?"
+      ],
+      "responses": [
+        "Wakil Dekan Bidang Akademik Fakultas Hukum: Dr. Ema Septaria, S.H, M.H.",
+        "Wakil Dekan Bidang Kemahasiswaan Fakultas Ekonomi dan Bisnis: Dr. Rina Suthia Hayu, S.E., M.M.",
+        "Wakil Dekan Bidang Sumber Daya Fakultas Matematika dan Ilmu Pengetahuan Alam: Ashar Muda Lubis, S.Si., M.Sc., Ph.D.",
+        "Wakil Dekan Bidang Akademik Fakultas Teknik: Helmizar, S.T., M.T., Ph.D."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_keguruan",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Keguruan dan Ilmu Pendidikan?",
+        "Sebutkan program studi di Fakultas Keguruan dan Ilmu Pendidikan!",
+        "Apa saja program studi di FKIP?"
+      ],
+      "responses": [
+        "Fakultas Keguruan dan Ilmu Pendidikan menawarkan program studi: D3 Bahasa Inggris, Pendidikan Profesi Guru, S1 Bimbingan dan Konseling, S1 Pendidikan Bahasa Indonesia, S1 Pendidikan Bahasa Inggris, S1 Pendidikan Biologi, S1 Pendidikan Fisika, S1 Pendidikan Guru PAUD, S1 Pendidikan Guru Sekolah Dasar, S1 Pendidikan Jasmani, S1 Pendidikan Kimia, S1 Pendidikan Non Formal, S1 Pendidikan Matematika, S1 Pendidikan IPA, S2 Administrasi Pendidikan, S2 Pendidikan Bahasa Indonesia, S2 Pendidikan Bahasa Inggris, S2 Pendidikan Dasar, S2 Pendidikan IPA, S2 Pendidikan Matematika, S2 Teknologi Pendidikan, S3 Pendidikan, dan S3 Linguistik Terapan."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_hukum",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Hukum?",
+        "Sebutkan program studi di Fakultas Hukum!"
+      ],
+      "responses": [
+        "Fakultas Hukum menawarkan program studi: S1 Hukum, S2 Hukum, S2 Kenotariatan, dan S3 Hukum."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_ekonomi",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Ekonomi dan Bisnis?",
+        "Sebutkan program studi di Fakultas Ekonomi!"
+      ],
+      "responses": [
+        "Fakultas Ekonomi dan Bisnis menawarkan program studi: D3 Akuntansi, S1 Akuntansi, S1 Ekonomi Pembangunan, S1 Manajemen, S2 Akuntansi, S2 Manajemen, S2 Ekonomi Terapan, S3 Ilmu Ekonomi, dan S3 Ilmu Manajemen."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_ilmu_sosial",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Ilmu Sosial dan Ilmu Politik?",
+        "Sebutkan program studi di Fakultas Ilmu Sosial dan Ilmu Politik!"
+      ],
+      "responses": [
+        "Fakultas Ilmu Sosial dan Ilmu Politik menawarkan program studi: D3 Jurnalistik, D3 Perpustakaan, D3 Administrasi Perkantoran, S1 Administrasi Publik, S1 Kesejahteraan Sosial, S1 Ilmu Komunikasi, S1 Perpustakaan dan Sains Informasi, S1 Jurnalistik, S1 Sosiologi, S2 Administrasi Publik, S2 Kesejahteraan Sosial, dan S2 Ilmu Komunikasi."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_pertanian",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Pertanian?",
+        "Sebutkan program studi di Fakultas Pertanian!"
+      ],
+      "responses": [
+        "Fakultas Pertanian menawarkan program studi: S1 Agribisnis, S1 Agroekoteknologi, S1 Ilmu Kelautan, S1 Ilmu Tanah, S1 Kehutanan, S1 Peternakan, S1 Proteksi Tanaman, S1 Teknologi Industri Pertanian, S1 Ilmu Lingkungan, S2 Agribisnis, S2 Agroekoteknologi, S2 Pengelolaan Sumberdaya Alam, S3 Ilmu Pertanian, dan S3 Pengelolaan Sumber Daya Alam."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_matematika",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Matematika dan Ilmu Pengetahuan Alam?",
+        "Sebutkan program studi di Fakultas Matematika dan Ilmu Pengetahuan Alam!"
+      ],
+      "responses": [
+        "Fakultas Matematika dan Ilmu Pengetahuan Alam menawarkan program studi: D3 Farmasi, D3 Kebidanan, D3 Keperawatan, D3 Laboratorium Sains, S1 Biologi, S1 Fisika, S1 Kimia, S1 Matematika, S1 Statistika, S1 Geofisika, S1 Farmasi, S2 Kimia, S2 Statistika, S2 Biologi."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_teknik",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Teknik?",
+        "Sebutkan program studi di Fakultas Teknik!"
+      ],
+      "responses": [
+        "Fakultas Teknik menawarkan program studi: S1 Arsitektur, S1 Sistem Informasi, S1 Teknik Elektro, S1 Informatika, S1 Teknik Mesin, S1 Teknik Sipil."
+      ]
+    },
+    {
+      "tag": "program_studi_fakultas_kedokteran",
+      "patterns": [
+        "Apa program studi yang ada di Fakultas Kedokteran dan Ilmu Kesehatan?",
+        "Sebutkan program studi di Fakultas Kedokteran!"
+      ],
+      "responses": [
+        "Fakultas Kedokteran dan Ilmu Kesehatan menawarkan program studi: Profesi Dokter, S1 Kedokteran."
+      ]
+    },
+    {
+      "tag": "sejarah_unib",
+      "patterns": [
+        "Bagaimana sejarah pendirian Universitas Bengkulu?",
+        "Kapan Universitas Bengkulu didirikan?",
+        "Siapa yang mendirikan Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Universitas Bengkulu (UNIB) didirikan berdasarkan Keputusan Presiden RI Nomor 17 tahun 1982 dan diresmikan oleh Menteri Pendidikan dan Kebudayaan Republik Indonesia, Prof. Dr. Daud Yusuf. UNIB mulai beroperasi dengan dukungan dari masyarakat, tokoh adat, Pemda Tk. I Bengkulu, dan Universitas Semarak Bengkulu (UNSEB)."
+      ]
+    },
+    {
+      "tag": "rektor_unib",
+      "patterns": [
+        "Siapa saja Rektor yang pernah memimpin Universitas Bengkulu?",
+        "Rektor Universitas Bengkulu sejak pertama hingga sekarang?",
+        "Sebutkan daftar Rektor Universitas Bengkulu!"
+      ],
+      "responses": [
+        "Rektor Universitas Bengkulu yang pernah menjabat adalah: 1) Prof. Ir. Soenjoto Sumodihardjo (1982-1986), 2) Dr. Ir. Soekotjo (1986-1990), 3) Dr. Ir. Nitza Arbi (1990-1995), 4) Prof. Dr. H Zulkifli Husin, S.E, M.Sc. (1995-2005), 5) Prof. Ir. Zainal Muktamar, Msc., Ph.D. (2005-2013), 6) Dr. Ridwan Nurazi, S.E., M.Sc., Ak (2013-2021), dan 7) Dr. Retno Agustina Ekaputri, S.E., M.Sc. (sejak 5 Oktober 2021)."
+      ]
+    },
+    {
+      "tag": "peran_gubernur_soeprapto",
+      "patterns": [
+        "Apa peran Gubernur Soeprapto dalam pendirian Universitas Bengkulu?",
+        "Bagaimana Gubernur Soeprapto membantu pendirian UNIB?",
+        "Apa yang dilakukan Gubernur Soeprapto untuk UNIB?"
+      ],
+      "responses": [
+        "Gubernur Soeprapto memainkan peran penting dalam pendirian Universitas Bengkulu dengan mendapatkan dukungan penuh dari masyarakat, tokoh adat, Pemda Tk. I Bengkulu, dan Universitas Semarak Bengkulu (UNSEB). Beliau juga menjalin kerjasama dengan Universitas Gadjah Mada Yogyakarta untuk mengatasi kendala utama dalam pendirian UNIB."
+      ]
+    },
+    {
+      "tag": "kerjasama_ugm_unib",
+      "patterns": [
+        "Apa kerjasama antara Universitas Gadjah Mada dan Universitas Bengkulu?",
+        "Bagaimana Universitas Gadjah Mada membantu pendirian UNIB?",
+        "Apa peran UGM dalam pendirian Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Kerjasama antara Universitas Gadjah Mada (UGM) dan Universitas Bengkulu (UNIB) dimulai atas petunjuk Presiden Soeharto. UGM mengirimkan tenaga edukatif untuk membantu pendirian UNIB, di antaranya Prof. Ir. Soenjoto Sumodihardjo, Dr. Ir. Soekotjo, Drs. Sutarto, Ir. Supratoyo, dan H. Hidjazi, S.H., serta merekrut tenaga edukatif dari universitas di Jawa dan Sumatera."
+      ]
+    },
+    {
+      "tag": "informasi_kuliah",
+      "patterns": [
+        "Jam berapa perkuliahan dimulai?",
+        "Apa jam kuliah di Universitas Bengkulu?",
+        "Berapa lama durasi kuliah di UNIB?"
+      ],
+      "responses": [
+        "Jam kuliah di Universitas Bengkulu umumnya dimulai pukul 07.30 WIB. Durasi kuliah bervariasi tergantung pada jenis mata kuliah, tetapi umumnya satu sks mata kuliah berlangsung selama 50 Menit "
+      ]
+    },
+    {
+      "tag": "proses_daftar_online",
+      "patterns": [
+        "Bagaimana cara mendaftar di Universitas Bengkulu?",
+        "Apa prosedur pendaftaran mahasiswa baru di UNIB?",
+        "Adakah pendaftaran online di Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Untuk mendaftar di Universitas Bengkulu, mahasiswa baru dapat mengikuti proses pendaftaran online yang tersedia di situs resmi UNIB, di mana mereka perlu mengisi formulir, mengunggah dokumen yang dibutuhkan, dan mengikuti ujian atau seleksi jika diperlukan."
+      ]
+    },
+    {
+      "tag": "fasilitas_kampus",
+      "patterns": [
+        "Apa saja fasilitas yang ada di Universitas Bengkulu?",
+        "Apa fasilitas yang disediakan untuk mahasiswa baru di UNIB?",
+        "Dimana saya bisa belajar di kampus UNIB?"
+      ],
+      "responses": [
+        "Universitas Bengkulu menyediakan berbagai fasilitas untuk mahasiswa, seperti ruang kelas yang lengkap, perpustakaan, laboratorium, wifi gratis, pusat olahraga, dan area untuk bersosialisasi. Selain itu, ada juga layanan kesehatan, kantin, dan area parkir."
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "Apakah ada beasiswa untuk mahasiswa di Universitas Bengkulu?",
+        "Bagaimana cara mendapatkan beasiswa di UNIB?",
+        "Apa jenis beasiswa yang ada di Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Universitas Bengkulu menyediakan berbagai jenis beasiswa, termasuk beasiswa prestasi, beasiswa bantuan finansial, dan beasiswa dari pemerintah atau mitra universitas. Mahasiswa dapat mengajukan permohonan melalui unit beasiswa UNIB atau mengikuti informasi terbaru di situs resmi."
+      ]
+    },
+    {
+      "tag": "organisasi_mahasiswa",
+      "patterns": [
+        "Apa organisasi mahasiswa yang ada di UNIB?",
+        "Bagaimana cara bergabung dengan organisasi mahasiswa di UNIB?",
+        "Apa kegiatan yang diadakan oleh organisasi mahasiswa di Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Universitas Bengkulu memiliki berbagai organisasi mahasiswa, termasuk organisasi kemahasiswaan tingkat fakultas, UKM (Unit Kegiatan Mahasiswa), dan organisasi berbasis minat dan bakat lainnya. Mahasiswa dapat bergabung dengan organisasi tersebut untuk mengembangkan keterampilan, mengikuti kegiatan sosial, dan meningkatkan pengalaman di luar perkuliahan."
+      ]
+    },
+    {
+      "tag": "akademik_tugas",
+      "patterns": [
+        "Apa yang harus saya lakukan jika tidak dapat menghadiri kuliah?",
+        "Bagaimana cara mengajukan izin tidak masuk kuliah di UNIB?",
+        "Apakah ada konsekuensi jika saya sering absen kuliah?"
+      ],
+      "responses": [
+        "Jika Anda tidak dapat menghadiri kuliah, harap memberitahukan dosen atau pihak fakultas terkait. Beberapa dosen atau fakultas memiliki prosedur untuk mengajukan izin tidak hadir, seperti mengisi formulir atau memberikan bukti. Absen yang terlalu sering dapat mempengaruhi penilaian dan status kehadiran Anda."
+      ]
+    },
+    {
+      "tag": "registrasi_krs",
+      "patterns": [
+        "Bagaimana cara melakukan registrasi KRS di UNIB?",
+        "Apa itu KRS dan bagaimana cara mengisinya?",
+        "Kapan saya harus mengisi KRS di Universitas Bengkulu?"
+      ],
+      "responses": [
+        "Registrasi KRS (Kartu Rencana Studi) dilakukan setiap awal semester melalui sistem online UNIB. Mahasiswa harus memilih mata kuliah yang akan diambil, dan setelah itu melakukan verifikasi dengan dosen atau pihak akademik. Pastikan untuk memeriksa jadwal registrasi dan memenuhi persyaratan akademik."
+      ]
+    },
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": [
+        "Bagaimana cara mengetahui jadwal kuliah di Universitas Bengkulu?",
+        "Dimana saya bisa melihat jadwal kuliah UNIB?",
+        "Apakah jadwal kuliah bisa diakses online?"
+      ],
+      "responses": [
+        "Jadwal kuliah Universitas Bengkulu dapat diakses melalui sistem akademik online yang tersedia di portal mahasiswa UNIB(pak.unib.ac.id). Mahasiswa juga dapat memeriksa jadwal melalui pengumuman  di situs web resmi universitas."
+      ]
+    }
+  ]
+}
+  
